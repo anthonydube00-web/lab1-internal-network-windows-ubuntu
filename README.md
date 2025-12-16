@@ -15,6 +15,7 @@ Configure a private internal network between a Windows 11 client and an Ubuntu s
 
 ## Configuration
 Both virtual machines were configured to use the same internal (host-only) network.
+Host-only networking was used to isolate traffic between the VMs while preventing external internet access.
 
 - Ubuntu IP: `192.168.128.2`
 - Windows IP: `192.168.128.3`
